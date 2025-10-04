@@ -1,4 +1,9 @@
-function hesapla(işlem) { 
+function hesapla(işlem) {  
+    /**
+    * Basit Hesap Makinesi - JavaScript
+    * İşlemler: Toplama, Çıkarma, Çarpma, Bölme
+    * HTML ve CSS sadece arayüz amaçlıdır.
+    */
     const sayi1 = parseFloat(document.getElementById('number1').value); 
     const sayi2 = parseFloat(document.getElementById('number2').value);  
 
