@@ -1,8 +1,8 @@
 /**
  * Basit Hesap Makinesi - JavaScript
  * İşlemler: Toplama, Çıkarma, Çarpma, Bölme
- * HTML ve CSS sadece arayüz amaçlıdır.
  */
+
 
 function hesapla(işlem) {  
     const sayi1 = parseFloat(document.getElementById('number1').value); 
