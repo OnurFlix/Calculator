@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="style.css"> 
+    <script src="index.js" defer> </script>
+    <title>Basit Hesap Makinesi</title> 
+</head>
+<body>
+    <h1> Hesap Makinesi </h1> 
+
+    <div class="input-group">  
+        <label for="number1"> Sayı 1: </label> 
+        <input type="number" id="number1" placeholder="Bir sayı girin"> 
+    </div> 
+
+    <div class="input-group"> 
+        <label for="number2"> Sayı 2: </label> 
+        <input type="number" id="number2" placeholder="Bir sayı girin">
+    </div>  
+
+
+    <div class="buttons"> 
+        <button onclick="hesapla('topla')">Toplama (+)</button>
+        <button onclick="hesapla('cikar')">Çıkarma (-)</button>
+        <button onclick="hesapla('carp')">Çarpma (*)</button>
+        <button onclick="hesapla('bol')">Bölme (/)</button>
+     </div>
+
+    <div id="sonuc">Sonuç burada görünecek.</div>
+
+</body>
+</html>

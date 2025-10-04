@@ -1,0 +1,6 @@
+{
+  "name": "hesap-makinesi",
+  "description": "Basit bir hesap makinesi (JavaScript)",
+  "main": "index.js",
+  "keywords": ["javascript", "calculator", "frontend"]
+}
